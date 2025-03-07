@@ -10,14 +10,14 @@
     "automation"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/yourusername/n8n-nodes-home-assistant-websocket",
+  "homepage": "https://github.com/kamil-bednarek/n8n-nodes-home-assistant-websocket",
   "author": {
     "name": "Kamil Bednarek",
     "email": "kamil@nexilo.uk"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/n8n-nodes-home-assistant-websocket.git"
+    "url": "https://github.com/kamil-bednarek/n8n-nodes-home-assistant-websocket.git"
   },
   "main": "index.js",
   "scripts": {
