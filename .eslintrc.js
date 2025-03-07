@@ -11,10 +11,10 @@ module.exports = {
 		sourceType: 'module',
 		ecmaVersion: 2019,
 	},
-	plugins: ['@typescript-eslint', 'n8n-nodes-base'],
+	plugins: ['@typescript-eslint'],
 	extends: [
+		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
-		'plugin:n8n-nodes-base/recommended',
 	],
 	rules: {
 		'@typescript-eslint/no-explicit-any': 'off',
@@ -22,6 +22,7 @@ module.exports = {
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		'@typescript-eslint/no-non-null-assertion': 'off',
-		'n8n-nodes-base/node-execute-block-missing-continue-on-fail': 'off',
+		'no-console': 'off',
+		'no-unused-vars': 'off',
 	},
 }; 
